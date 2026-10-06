@@ -9,5 +9,10 @@ class Program
         Book book = new Book("C# for beginners", "Bill Gates", "1234567");
 
         book.DisplayInfo();
+
+        // Create another instance of the Book class
+        Book book1 = new Book("Ultimate C", "Microsoft", "988776");
+
+        book1.DisplayInfo();
     }
 }
